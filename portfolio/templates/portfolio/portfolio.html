@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Freelance</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/017/608/745/original/dna-icon-trendy-and-modern-symbol-on-the-blue-background-vector.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/styles.css' %}">
+</head>
+<body>
+    <header class="port">
+        <h1>Freelance</h1>
+        <img src="{% static 'portfolio/moon.png' %}" id="mode" onclick="toggleDarkMode()">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#Education">EDUCATION</a></li>
+            <li><a href="#Experiences">EXPERIENCES</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+        </ul>
+    </header>
+  <video autoplay loop muted>
+      <source src="{% static 'portfolio/contentbg.mp4' %}" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+</div>
+    <main id="about" class="current-page">
+      <h2><span class="name">Hi,<br>I am <span class="blue-text" id="typing">Dazle Salvedia</span><br>Programming Student</span></h2>
+      <p>20 years old and currently enrolled here in <br>TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES - CAVITE<br> studying Bachelor of Technical Vocational <br>Technology Education major in Computer Programming.
+      <br>and I love photography and nature travel.</p>
+      <img src="{% static 'portfolio/profile1.png' %}" alt="Profile Picture" class="profile-image">
+  <div class="wrapper">
+       <h4 class="cont">Contact me on</h4>
+       <div class="button">
+          <a href="https://www.facebook.com/DazleSalvedia/"><div class="icon">
+             <i class="fab fa-facebook-f"></i>
+          </div></a>
+          <span>Facebook</span>
+       </div>
+       <div class="button">
+          <a href="https://www.instagram.com/aymdaz/"><div class="icon">
+             <i class="fab fa-instagram"></i>
+          </div></a>
+          <span>Instagram</span>
+       </div>
+       <div class="button">
+        <a href="https://t.me/Aymsheessh"><div class="icon">
+           <i class="fab fa-telegram"></i>
+        </div></a>
+        <span>Telegram</span>
+     </div>     
+  </div>
+  </main>
+
+<div class="container"> 
+    <header class="title" ><h2 class="hdr">EDUCATION</h2></header>
+<main class="row" id="Education" >
+<section class="col">
+    <div class="contents">
+        <div class="box">
+            <h4 class="tdd">2010 - 2015</h4>
+            <h3 class="oop">Primary Education</h3>
+            <p>I Graduated in Elementary Education on March 26 2015 at the age of 11 in San Nicolas Elementary School located at Area D Dasmarinas, Cavite.</p>
+        </div>
+        <div class="box">
+            <h4 class="tdd">2015 - 2019</h4>
+            <h3 class="oop">Secondary Education</h3>
+            <p>I finished my secondary education in Pag Asa National High School on April 3, 2019 at the age of 15 and it is located in Victoria Reyes Dasmarinas, Cavite.</p>
+        </div>
+    </div>
+</section>
+<section class="col">
+    <div class="contents">
+        <div class="box">
+            <h4 class="tdd">2019 - 2021</h4>
+            <h3 class="oop">Upper Secondary Education</h3>
+            <p>I studied Technical Vocational Livelihod major in Information and Communication Technology in Dasmarinas East Integrated High School .</p>
+        </div>
+        <div class="box">
+            <h4 class="tdd">On Going</h4>
+            <h3 class="oop">Tertiary Education</h3>
+            <p>Enrolled in Technological University of the Philippines - Cavite and stuying Bachelor of Technical Vocational Teacher Education major in Computer Programming. </p>
+        </div>
+    </div>
+</section>
+</main>
+</div>
+
+<div class="exp"id="Experiences" >
+    <h2 class="experience" >EXPERIENCE</h2>
+  </div>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-header">
+        <div class="header-img" style="background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJRwF_KdGtW89pSbnfyv7zvB2EANJJdplWA&s) center"></div>
+      </div>
+      <div class="card-title">
+        <h1>HTML</h1>
+        <p>For 2 years, I've developed a solid understanding of HTML, focusing on creating simple and accessible website structures. I ensure my code meets standards while keeping user experience at the forefront.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="header-img" style="background: url(data:image/jpeg;base64,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) center"></div>
+      </div>
+      <div class="card-title">
+        <h1>CSS</h1>
+        <p>In my 2 years of using CSS, I managed to enhance the visual appeal and responsiveness of web projects. I'm committed to continuous improvement and creating designs that serve the user effectively.</p>
+      </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+          <div class="header-img" style="background: url(https://w0.peakpx.com/wallpaper/142/758/HD-wallpaper-python-logo-white-silk-texture-python-emblem-programming-language-python-silk-background.jpg) center"></div>
+        </div>
+        <div class="card-title">
+          <h1>PYTHON</h1>
+          <p>As a second-year college student, I've learned to use Python for scripting and building system applications. With each task, I improve my Python skills, tackling challenges with eagerness and a focus on delivering successful solutions.</p>
+        </div>
+      </div>
+  </div>
+
+      <div class="container-wrapper">
+        <h2 class="project1" id="project">PROJECTS</h2>
+      <div class="containerimage">
+        <div class="slide">
+            <div class="item" style="background-image: url(static/portfolio/GEC.jpg);">
+                <div class="imagecontent">
+                    <div class="name">Art</div>
+                    <div class="des">Redesigned digital art.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(static/portfolio/gear.jpg);">
+                <div class="imagecontent">
+                    <div class="name">Gear Project</div>
+                    <div class="des">This project I form a school logo using a metal</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(https://img.freepik.com/premium-photo/payroll-text-effect-gold-jpg-attractive-background-card-photo_873925-521855.jpg);">
+                <div class="imagecontent">
+                    <div class="name">Payroll Checker</div>
+                    <div class="des">This is a program application that allows you to check your salary on time.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(static/portfolio/lessonplan.png);">
+                <div class="imagecontent">
+                    <div class="name">Lesson Plan Maker</div>
+                    <div class="des">This program application allows you to create a lesson plan easily</div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="button999">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    <script>
+      let next = document.querySelector('.next');
+      let prev = document.querySelector('.prev');
+  
+      next.addEventListener('click', function () {
+          let items = document.querySelectorAll('.item');
+          document.querySelector('.slide').appendChild(items[0]);
+      });
+  
+      prev.addEventListener('click', function () {
+          let items = document.querySelectorAll('.item');
+          document.querySelector('.slide').prepend(items[items.length - 1]);
+      });
+
+
+      function toggleDarkMode() {
+    var mode = document.getElementById('mode');
+    document.body.classList.toggle("dark-mode");
+
+    var video = document.querySelector("video");
+    video.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        mode.src = "{% static 'portfolio/sun.png' %}";
+        video.style.filter = "brightness(0%)";
+    } else {
+        mode.src = "{% static 'portfolio/moon.png' %}";
+        video.style.filter = "brightness(100%)";
+    }
+}
+  </script>
+</body>
+
+</html>
